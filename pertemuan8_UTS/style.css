@@ -1,0 +1,88 @@
+.container1{
+    background-color: #FEFDED;
+    width: 100%; /* lebar kontainer */
+    margin-bottom: 2px; /* Menambahkan margin bawah sebesar 20 piksel */
+
+}
+
+.column {
+    width: 100%; /* lebar satu kolom */
+    text-align: center;
+    padding: 20px; /* ruang di dalam kolom */
+    background-color: #FEFDED; /* warna latar belakang */
+    border: 1px solid #1a1919; /* garis tepi */
+    box-sizing: border-box; /* menghitung padding dan border dalam lebar */
+
+}
+.container2{
+    width: 100%; /* lebar kontainer */
+    display: flex; 
+    justify-content:center; /*membuat tulisan di tengah */
+}
+
+.child1{
+    background-color: #C6EBC5;
+    text-align: justify;
+    width: 100%;
+    padding: 20px; 
+    border: 1px solid #1a1919; /* garis tepi */
+    margin-bottom: 2px; /* Menambahkan margin bawah sebesar 20 piksel */
+    
+}
+
+.child2{
+    background-color: #A1C398;
+    text-align: center;
+    width: 100%;
+    padding: 100px; 
+    border: 1px solid #1a1919; /* garis tepi */
+    margin-right: 2px; /* Mengatur margin kanan sebesar 20 piksel */
+    margin-left: 2px; /* Mengatur margin kiri sebesar 20 piksel */
+    margin-bottom: 2px; /* Menambahkan margin bawah sebesar 20 piksel */
+}
+.lamaran{
+    flex-direction: column-reverse;
+    padding: 30;
+    text-align: left;
+}
+
+.child3{
+    background-color: #C6EBC5;
+    text-align: center;
+    border: 1px solid #1a1919; /* garis tepi */
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 2px; /* Menambahkan margin bawah sebesar 20 piksel */
+}
+.biodata{
+    flex-direction: column-reverse;
+    padding: 30;
+    text-align: left;
+}
+#potoo{
+        display: block;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        width: 250px;
+        height: 250px;
+        border-radius: 40px;
+    }
+
+.container3{
+    background-color: FEFDED;
+    width: 100%; /* lebar kontainer */
+    margin-bottom: 2px; /* Menambahkan margin bawah sebesar 20 piksel */  
+    justify-content:center; /*membuat tulisan di tengah */ 
+}
+.column2{
+    width: 100%; /* lebar satu kolom */
+    text-align: center;
+    padding: 1px; /* ruang di dalam kolom */
+    background-color: #FEFDED; /* warna latar belakang */
+    border: 1px solid #1a1919; /* garis tepi */
+    box-sizing: border-box; /* menghitung padding dan border dalam lebar */
+    justify-content:center; /*membuat tulisan di tengah */
+    justify-content: flex-start ;
+}
